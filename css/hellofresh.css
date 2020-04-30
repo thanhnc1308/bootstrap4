@@ -1,0 +1,203 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.navbar-icon-top .navbar-nav .nav-link>.fa {
+    position: relative;
+    width: 36px;
+    font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
+    font-size: 0.75rem;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa {
+    top: 3px;
+    line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
+    top: -10px;
+}
+
+@media (min-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+
+/* override */
+
+.bg-white {
+    background-color: #fff;
+}
+
+.navbar {
+    padding: 0;
+    padding-right: 1rem;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.navbar-brand {
+    padding-bottom: 0;
+}
+
+.nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 50px !important;
+}
+
+.navbar-nav .active {
+    border-bottom: 4px solid #139413;
+    border-right: 1px solid #d8d8d8;
+}
+
+.navbar-nav .active .nav-link {
+    color: #139413 !important;
+}
+
+.nav-link>.fa {
+    display: inline !important;
+}
+
+
+/* end override */
+
+.row-item {
+    margin-bottom: 10px;
+}
+
+
+/* main content */
+
+.last-update {
+    font-weight: bold;
+}
+
+.card-footer-custom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer-left {
+    display: flex;
+}
+
+.card-footer-left .item {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #c3c3c3;
+}
+
+.card-text .feature {
+    opacity: 0.75;
+}
+
+.card-footer-right .card-text {
+    padding-left: 5px;
+    border-left: 1px solid #c3c3c3;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+
+/* end main content  */
+
+.divider {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+
+/* side-and-complements */
+
+.side-and-complements {}
+
+
+/* end side-and-complements */
