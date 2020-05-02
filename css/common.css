@@ -1,0 +1,51 @@
+.flex {
+    display: flex;
+}
+
+.flex-right {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-middle {
+    align-items: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+body {
+    font-size: 14px;
+}
+
+.body {
+    height: calc(100vh - 200px);
+}
+
+.btn-footer {
+    font-size: 25px;
+}
+
+.footer-copyright {
+    background-color: #e0e0e0;
+}
