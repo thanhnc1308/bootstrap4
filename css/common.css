@@ -14,6 +14,10 @@
     align-items: center;
 }
 
+.flex-between {
+    justify-content: space-between;
+}
+
 .bg-white {
     background-color: #fff;
 }
@@ -30,7 +34,9 @@
     font-weight: 600;
 }
 
-.italic {}
+.italic {
+    font-style: italic;
+}
 
 .pointer {
     cursor: pointer;
