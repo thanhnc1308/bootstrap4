@@ -30,16 +30,19 @@
     font-weight: 600;
 }
 
+.italic {}
+
 .pointer {
     cursor: pointer;
 }
 
 body {
     font-size: 14px;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .body {
-    height: calc(100vh - 200px);
+    margin-top: 56px;
 }
 
 .btn-footer {
@@ -48,4 +51,9 @@ body {
 
 .footer-copyright {
     background-color: #e0e0e0;
+    color: #fff;
+}
+
+.page-footer {
+    background-color: #dedede80;
 }
