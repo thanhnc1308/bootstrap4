@@ -83,3 +83,7 @@ body {
 .bg-grey {
     background-color: rgba(0, 0, 0, .03);
 }
+
+.font-very-big {
+    font-size: 40px;
+}
