@@ -1,0 +1,18 @@
+.sidebar {
+    width: 80px;
+    height: 100vh;
+}
+
+.nav .icon {
+    font-size: 30px;
+    color: yellow;
+}
+
+.nav .active {
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.sidebar .nav-link {
+    color: #fff;
+}
