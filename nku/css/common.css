@@ -6,6 +6,14 @@
     justify-content: flex-end;
 }
 
+.w-fit {
+    width: fit-content;
+}
+
+.vertical-start {
+    align-items: flex-start;
+}
+
 .flex-center {
     justify-content: center;
 }
@@ -66,4 +74,12 @@ body {
 
 .page-footer {
     background-color: #dedede80;
+}
+
+.non-underline {
+    text-decoration: none;
+}
+
+.bg-grey {
+    background-color: rgba(0, 0, 0, .03);
 }
